@@ -2,12 +2,12 @@
 
 /**
  * @package   yii2-krajee-base
- * @author    Kartik Visweswaran <kartikv2@gmail.com>
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2017
+ * @author    izisoft Visweswaran <izisoftv2@gmail.com>
+ * @copyright Copyright &copy; izisoft Visweswaran, Krajee.com, 2014 - 2017
  * @version   1.8.9
  */
 
-namespace kartik\base;
+namespace izisoft\base;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -33,7 +33,7 @@ use yii\widgets\InputWidget as YiiInputWidget;
  * ]) ?>
  * ```
  *
- * @author Kartik Visweswaran <kartikv2@gmail.com>
+ * @author izisoft Visweswaran <izisoftv2@gmail.com>
  * @since 1.0
  */
 class InputWidget extends YiiInputWidget
@@ -376,7 +376,7 @@ class InputWidget extends YiiInputWidget
 
     /**
      * Parses and sets plugin date format based on attribute type using [[FormatConverter]]. Currently this method is
-     * used only within the [[\kartik\date\DatePicker]] and [[\kartik\datetime\DateTimePicker\]] widgets.
+     * used only within the [[\izisoft\date\DatePicker]] and [[\izisoft\datetime\DateTimePicker\]] widgets.
      *
      * @param string $type the attribute type whether date, datetime, or time.
      *

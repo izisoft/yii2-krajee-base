@@ -2,12 +2,12 @@
 
 /**
  * @package   yii2-krajee-base
- * @author    Kartik Visweswaran <kartikv2@gmail.com>
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2017
+ * @author    izisoft Visweswaran <izisoftv2@gmail.com>
+ * @copyright Copyright &copy; izisoft Visweswaran, Krajee.com, 2014 - 2017
  * @version   1.8.9
  */
 
-namespace kartik\base;
+namespace izisoft\base;
 
 use Yii;
 use yii\helpers\Html;
@@ -16,7 +16,7 @@ use yii\helpers\ArrayHelper;
 /**
  * Html5Input widget is a widget encapsulating the HTML 5 inputs.
  *
- * @author Kartik Visweswaran <kartikv2@gmail.com>
+ * @author izisoft Visweswaran <izisoftv2@gmail.com>
  * @since 1.0
  * @see http://twitter.github.com/typeahead.js/examples
  */

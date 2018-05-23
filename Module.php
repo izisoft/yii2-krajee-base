@@ -2,17 +2,17 @@
 
 /**
  * @package   yii2-krajee-base
- * @author    Kartik Visweswaran <kartikv2@gmail.com>
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2017
+ * @author    izisoft Visweswaran <izisoftv2@gmail.com>
+ * @copyright Copyright &copy; izisoft Visweswaran, Krajee.com, 2014 - 2017
  * @version   1.8.9
  */
 
-namespace kartik\base;
+namespace izisoft\base;
 
 /**
  * Base module class for Krajee extensions
  *
- * @author Kartik Visweswaran <kartikv2@gmail.com>
+ * @author izisoft Visweswaran <izisoftv2@gmail.com>
  * @since 1.8.9
  */
 class Module extends \yii\base\Module

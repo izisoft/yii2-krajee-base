@@ -2,12 +2,12 @@
 
 /**
  * @package   yii2-krajee-base
- * @author    Kartik Visweswaran <kartikv2@gmail.com>
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2017
+ * @author    izisoft Visweswaran <izisoftv2@gmail.com>
+ * @copyright Copyright &copy; izisoft Visweswaran, Krajee.com, 2014 - 2017
  * @version   1.8.9
  */
 
-namespace kartik\base;
+namespace izisoft\base;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -15,13 +15,13 @@ use yii\base\InvalidConfigException;
 /**
  * Global configuration helper class for Krajee extensions.
  *
- * @author Kartik Visweswaran <kartikv2@gmail.com>
+ * @author izisoft Visweswaran <izisoftv2@gmail.com>
  * @since 1.0
  */
 class Config
 {
-    const VENDOR_NAME = 'kartik-v/';
-    const NAMESPACE_PREFIX = '\\kartik\\';
+    const VENDOR_NAME = 'izisoft/';
+    const NAMESPACE_PREFIX = '\\izisoft\\';
     const DEFAULT_REASON = 'for your selected functionality';
 
     protected static $_validHtmlInputs = [
@@ -49,24 +49,24 @@ class Config
     ];
 
     protected static $_validInputWidgets = [
-        '\kartik\typeahead\Typeahead' => ['yii2-widgets', 'yii2-widget-typeahead'],
-        '\kartik\select2\Select2' => ['yii2-widgets', 'yii2-widget-select2'],
-        '\kartik\depdrop\DepDrop' => ['yii2-widgets', 'yii2-widget-depdrop'],
-        '\kartik\touchspin\TouchSpin' => ['yii2-widgets', 'yii2-widget-touchspin'],
-        '\kartik\switchinput\SwitchInput' => ['yii2-widgets', 'yii2-widget-switchinput'],
-        '\kartik\rating\StarRating' => ['yii2-widgets', 'yii2-widget-rating'],
-        '\kartik\file\FileInput' => ['yii2-widgets', 'yii2-widget-fileinput'],
-        '\kartik\range\RangeInput' => ['yii2-widgets', 'yii2-widget-rangeinput'],
-        '\kartik\color\ColorInput' => ['yii2-widgets', 'yii2-widget-colorinput'],
-        '\kartik\date\DatePicker' => ['yii2-widgets', 'yii2-widget-datepicker'],
-        '\kartik\time\TimePicker' => ['yii2-widgets', 'yii2-widget-timepicker'],
-        '\kartik\datetime\DateTimePicker' => ['yii2-widgets', 'yii2-widget-datetimepicker'],
-        '\kartik\daterange\DateRangePicker' => 'yii2-date-range',
-        '\kartik\sortinput\SortableInput' => 'yii2-sortinput',
-        '\kartik\tree\TreeViewInput' => 'yii2-tree-manager',
-        '\kartik\money\MaskMoney' => 'yii2-money',
-        '\kartik\checkbox\CheckboxX' => 'yii2-checkbox-x',
-        '\kartik\slider\Slider' => 'yii2-slider',
+        '\izisoft\typeahead\Typeahead' => ['yii2-widgets', 'yii2-widget-typeahead'],
+        '\izisoft\select2\Select2' => ['yii2-widgets', 'yii2-widget-select2'],
+        '\izisoft\depdrop\DepDrop' => ['yii2-widgets', 'yii2-widget-depdrop'],
+        '\izisoft\touchspin\TouchSpin' => ['yii2-widgets', 'yii2-widget-touchspin'],
+        '\izisoft\switchinput\SwitchInput' => ['yii2-widgets', 'yii2-widget-switchinput'],
+        '\izisoft\rating\StarRating' => ['yii2-widgets', 'yii2-widget-rating'],
+        '\izisoft\file\FileInput' => ['yii2-widgets', 'yii2-widget-fileinput'],
+        '\izisoft\range\RangeInput' => ['yii2-widgets', 'yii2-widget-rangeinput'],
+        '\izisoft\color\ColorInput' => ['yii2-widgets', 'yii2-widget-colorinput'],
+        '\izisoft\date\DatePicker' => ['yii2-widgets', 'yii2-widget-datepicker'],
+        '\izisoft\time\TimePicker' => ['yii2-widgets', 'yii2-widget-timepicker'],
+        '\izisoft\datetime\DateTimePicker' => ['yii2-widgets', 'yii2-widget-datetimepicker'],
+        '\izisoft\daterange\DateRangePicker' => 'yii2-date-range',
+        '\izisoft\sortinput\SortableInput' => 'yii2-sortinput',
+        '\izisoft\tree\TreeViewInput' => 'yii2-tree-manager',
+        '\izisoft\money\MaskMoney' => 'yii2-money',
+        '\izisoft\checkbox\CheckboxX' => 'yii2-checkbox-x',
+        '\izisoft\slider\Slider' => 'yii2-slider',
     ];
 
     /**

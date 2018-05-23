@@ -2,12 +2,12 @@
 
 /**
  * @package   yii2-krajee-base
- * @author    Kartik Visweswaran <kartikv2@gmail.com>
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2017
+ * @author    izisoft Visweswaran <izisoftv2@gmail.com>
+ * @copyright Copyright &copy; izisoft Visweswaran, Krajee.com, 2014 - 2017
  * @version   1.8.9
  */
 
-namespace kartik\base;
+namespace izisoft\base;
 
 use yii\helpers\Json;
 use yii\web\JsExpression;
@@ -27,7 +27,7 @@ use yii\web\View;
  *
  * @method View getView()
  *
- * @author Kartik Visweswaran <kartikv2@gmail.com>
+ * @author izisoft Visweswaran <izisoftv2@gmail.com>
  * @since 1.6.0
  */
 trait WidgetTrait
@@ -90,7 +90,7 @@ trait WidgetTrait
      *
      * - 'data-krajee-{name}' will store the hashed variable storing the plugin options. The `{name}` token will be
      *   replaced with the plugin name (e.g. `select2`, ``typeahead etc.). This fixes
-     *   [issue #6](https://github.com/kartik-v/yii2-krajee-base/issues/6).
+     *   [issue #6](https://github.com/izisoft-v/yii2-krajee-base/issues/6).
      *
      * @param string $name the name of the plugin
      */
